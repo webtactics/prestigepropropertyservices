@@ -891,7 +891,10 @@ ul.footer-menu {
     height: auto;
     border-bottom:1px solid var(--lightgrey);
   }
-  .footer-menu > li:last-child  > a{
+
+
+
+  .footer-menu > li:last-child  > a,   .footer-menu > li > a:hover{
     padding: 0 1rem;
     height: auto;
     border-bottom:1px solid transparent;

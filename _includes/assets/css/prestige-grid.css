@@ -1075,7 +1075,7 @@ background-color: var(--primary); font-weight: bold;}
 
   .hero {background-size: cover;background-color: var(--black);background-attachment:fixed;}
 
-  .hero {height: 400px;background: url(/img/prestige-surf-1.jpg);}
+  .hero {height: 400px;background: url(/img/prestige-surf-1.jpg);background-size: cover;background-color: var(--black);background-attachment:fixed;}
 
   .contact .hero {height: 400px;background: url(/img/prestige-surf-1.jpg);}
 
@@ -1083,7 +1083,7 @@ background-color: var(--primary); font-weight: bold;}
 
   .property .hero {height: 400px;background: url(/img/prestige-surf-1.jpg);}
 
-.home .hero{height: 100svh;height: 100vh;background: url(/img/prestige-surf-1.jpg);}
+.home .hero{height: 100svh;height: 100vh;background: url(/img/prestige-surf-1.jpg);background-size: cover;background-color: var(--black);background-attachment:fixed;}
 
 @media (min-width: 1600px) {
   .home .hero {height: 100svh;height: 100vh;background: url(/img/prestige-surf-1.jpg);background-size: cover;background-color: var(--black);background-attachment:fixed;}
@@ -1091,14 +1091,14 @@ background-color: var(--primary); font-weight: bold;}
 }
 
   @media (max-width: 1280px) {
-    .home .hero  {height: 500px;background: url(/img/prestige-surf-1.jpg); }
+    .home .hero  {height: 500px;background: url(/img/prestige-surf-1.jpg); background-size: cover;background-color: var(--black);background-attachment:fixed;}
 
 
   }
   @media (max-width: 600px) {
-    .home .hero  {height: 350px;background: url(/img/prestige-surf-1.jpg);}
+    .home .hero  {height: 350px;background: url(/img/prestige-surf-1.jpg);background-size: cover;background-color: var(--black);background-attachment:fixed;}
 
-    .hero {height: 300px;background: url(/img/prestige-surf-1.jpg);}
+ 
 
     .contact .hero {height: 300px;background: url(/img/prestige-surf-1.jpg);}
 

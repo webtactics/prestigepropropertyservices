@@ -1139,7 +1139,7 @@ background-color: var(--primary); font-weight: bold;}
 
   
   .footernavwrapper {
-    background-color: var(--black);border-bottom: 1px solid var(--lightgrey);
+    background-color: var(--black);border-bottom: 1px solid var(--primarydark);
   }
     .footernav {
     margin: 0 auto;

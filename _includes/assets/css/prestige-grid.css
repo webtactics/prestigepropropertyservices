@@ -84,7 +84,11 @@ a:hover {
   text-decoration: none;
 
 }
-
+a:not([class]) {
+	text-underline-offset: 0.25em;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-color: var(--primarydark);
+}
 
 .content p a {
   line-height: inherit;

@@ -1099,9 +1099,10 @@ background-color: var(--primary); font-weight: bold;}
 
 @media (min-width: 1600px) {
 .home .hero {height: 100svh;height: 100vh;}
-
 }
-
+@media (min-width: 1280px) {
+  .home .hero  {height: 80svh;height: 80vh;}
+  }
 @media (max-width: 1280px) {
 .home .hero  {height: 40svh;height: 40vh;}
 }

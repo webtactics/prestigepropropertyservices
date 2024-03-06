@@ -6,7 +6,7 @@ description: How to contact PrestigePro Property Services
 section: contact
 date: 2023-07-20
 metadata:
-  title: Criminal and Family Law Lawyer Bathurst NSW
+  title: 
 permalink: /contact/
 eleventyNavigation:
   key: Contact

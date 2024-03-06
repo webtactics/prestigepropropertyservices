@@ -1108,6 +1108,7 @@ background-color: var(--primary); font-weight: bold;}
 
 @media (max-width: 600px) {
 .home .hero  {height: 50svh;height: 50vh;}
+.internal .hero  {height: 30svh;height: 30vh;}
 }
 
 

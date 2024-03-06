@@ -210,7 +210,7 @@ color: var(--black);
 }
 .content {
   margin: 0 auto;
-  padding:  0 1rem;
+  padding:  2rem 0.5rem;
   z-index: 2;
   max-width: 1280px;
   background-color: var(--white);

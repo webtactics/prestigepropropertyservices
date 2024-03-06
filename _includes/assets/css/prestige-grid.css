@@ -1097,10 +1097,10 @@ background-color: var(--primary); font-weight: bold;}
 
 .hero {background: url(/img/prestige-surf-1.jpg);background-size: cover;background-color: var(--black);background-attachment:fixed;height: 40svh;height: 40vh;}
 
-@media (min-width: 1600px) {
+
 .home .hero {height: 100svh;height: 100vh;}
-}
-@media (min-width: 1280px) {
+
+@media (max-width: 1500px) {
   .home .hero  {height: 80svh;height: 80vh;}
   }
 @media (max-width: 1280px) {

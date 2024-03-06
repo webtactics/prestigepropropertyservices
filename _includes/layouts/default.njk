@@ -3,10 +3,11 @@
 
 {% include "components/head.njk" %}
 
-	
+{% block header %}
 <body class=" internal {{ class }} " >
 {% include "components/header.njk" %}
-  {% include "components/off-canvas.njk" %}
+{% include "components/off-canvas.njk" %}
+{% endblock %}
   {% block hero %}
   {% include "components/hero.njk" %}
   {% endblock %}

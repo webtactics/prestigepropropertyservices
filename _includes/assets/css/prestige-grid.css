@@ -163,7 +163,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     border:none;
   }
 .h4, h4 {
-  font-size: calc(1rem + 0.5rem);}
+  font-size: calc(1rem + 0.75rem);}
 
 
 
@@ -173,7 +173,7 @@ font-style: normal;
 font-weight: normal;
 color: var(--text);
 text-rendering: optimizeLegibility;
-font-size: calc(1rem + 1vw);
+font-size: calc(1rem + 0.5rem);
 line-height: 1.5rem;
 margin: 0 0 1rem 0;
 padding:0;}

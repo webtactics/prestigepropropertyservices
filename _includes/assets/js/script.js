@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
   const toggleButton = document.querySelector('.toggle-nav');
   const offcanvasNav = document.querySelector('.offcanvas');
   const closeNavButton = document.querySelector('.close-nav');
@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
   sliders.forEach(slider => {
     appearOnScroll.observe(slider);
   });
-});
 
 
 

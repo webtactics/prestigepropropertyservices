@@ -16,9 +16,10 @@ eleventyNavigation:
 ## Maintenance and Repairs: ## 
 
 From routine maintenance tasks to emergency repairs, conditions reports and tailored services our skilled locally connected team ensures that properties are well-maintained to preserve their long-term value. 
-“A stitch in time saves nine”
 
-Examples of what we can provide as preventative maintenance tailored to our local coastal conditions.
+Remember, as the saying goes, “a stitch in time saves nine”.
+
+Examples of what we provide as preventative maintenance tailored to our local coastal conditions.
 
 - Rust preventative treatments of fittings and fixtures
 - Timber treatments for decks and furniture / restoration.

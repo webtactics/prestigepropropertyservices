@@ -200,7 +200,12 @@ color: var(--black);
   
 
 
-.cta.content {  padding:  2rem 0 4rem;min-height: 5rem;}
+.cta.content {  padding:  2rem;min-height: 5rem;
+  background-color: var(--primary);
+  border: 0.5rem solid var(--black);
+  border-radius: 0.25rem;
+  color: var(--white);
+}
 @media screen and (max-width: 768px) {
  
   .cta.content {  padding:  1rem 0 4rem;}

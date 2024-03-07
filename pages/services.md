@@ -1,6 +1,6 @@
 ---
 layout: layouts/services.njk
-title: Services Offered
+title: PrestigePro Property Services offered
 description: From routine maintenance tasks to emergency repairs, conditions reports and tailored services our skilled locally connected team ensures that properties are well-maintained to preserve their long-term value.
 class: services
 section: services
@@ -11,9 +11,12 @@ eleventyNavigation:
   order: 3
 ---
 
-## PrestigePro Property Services offered: ## 
 
-Maintenance and Repairs: From routine maintenance tasks to emergency repairs, conditions reports and tailored services our skilled locally connected team ensures that properties are well-maintained to preserve their long-term value. “A stitch in time saves nine”
+
+## Maintenance and Repairs: ## 
+
+From routine maintenance tasks to emergency repairs, conditions reports and tailored services our skilled locally connected team ensures that properties are well-maintained to preserve their long-term value. 
+“A stitch in time saves nine”
 
 Examples of what we can provide as preventative maintenance tailored to our local coastal conditions.
 

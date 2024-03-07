@@ -21,3 +21,7 @@ eleventyNavigation:
 We offer tailored subscriptions for a seamless service that can be set and forget or adjusted to requirements. 
 
 
+### Clientele: ###
+PrestigePro serves a diverse range of clientele, including individual high end property owners, real estate investors, homeowner associations, and commercial property owners. 
+
+Our tailored solutions cater to the unique needs of each client, regardless of property size or type.

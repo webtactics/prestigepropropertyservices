@@ -18,6 +18,12 @@
  <div class="caption-text"><h1><span>{{ title }}</span></h1></div>
 <main class="content">  
 {{ layoutContent | safe }}
+
+<div class="ctawrapper">
+{% include "components/global/calltoaction.html" %}
+</div>
+
+
 </main>
 {% endblock %}
 

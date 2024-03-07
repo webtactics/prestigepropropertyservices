@@ -2,13 +2,14 @@
 	--primary: hsla(36, 64.52%, 63.53%, 1);
   --primarylight: hsla(36, 64.52%, 63.53%,0.6);
   --primarydark: hsla(36.07, 70.04%, 51.57%, 1);
+  --primarydarker:  hsla(36, 84.42%, 45.29%, 1);
 	--white: #ffffff;
   --white10: hsla(0,0%,100%,0.1);
   --white50: hsla(0,0%,100%,0.5);
   --white80: hsla(0,0%,100%,0.8);
 	--lightgrey: #ebebeb;
 	--red: #D90000;
-  --text: #6A6A6A;
+  --text: hsla(0,0%,0%,1);
   --black: hsla(0,0%,0%,1);
   --black40: hsla(0,0%,0%,0.4);
   --black80: hsla(0,0%,0%,0.8);
@@ -114,7 +115,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: var(--primary);
+  color: var(--primarydarker);
   text-rendering: optimizeLegibility;
   margin:0 0 1rem;
   padding:0;
@@ -132,28 +133,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .h2, h2 {
   font-size: calc(1.6rem + 1vw); 
 }
-.home .content h2 {
-  font-size: calc(1.4rem + 1vw); 
-  color: var(--black);
 
-}
-.home .content h2 a {
-  line-height: inherit;
-  color: var(--primary);
-  text-decoration: none;
-  cursor: pointer;
-  border-bottom: 2px dotted var(--primarydark);
-
-}
-
-.home .content h2 a:hover {
-  color: var(--white);
-  border: none;
-  text-decoration: none;
-  border-bottom: 2px solid var(--black);
-  background-color: var(--primary);
-
-}
 
 .h3, h3 {
   font-size: calc(1.2rem + 0.5rem);}

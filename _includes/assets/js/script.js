@@ -1,4 +1,5 @@
-const toggleButton = document.querySelector('.toggle-nav');
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.querySelector('.toggle-nav');
   const offcanvasNav = document.querySelector('.offcanvas');
   const closeNavButton = document.querySelector('.close-nav');
   
@@ -6,7 +7,11 @@ const toggleButton = document.querySelector('.toggle-nav');
     offcanvasNav.classList.toggle('open');
     toggleButton.classList.toggle('active');
   });
-  
+
+  closeNavButton.addEventListener('click', function() {
+    closeOffcanvasNav();
+  });
+
   function closeOffcanvasNav() {
     offcanvasNav.classList.remove('open');
     toggleButton.classList.remove('active');
@@ -29,32 +34,52 @@ const toggleButton = document.querySelector('.toggle-nav');
   });
   
 
-const header = document.querySelector('.topbar');
-const scrollWatcher = document.createElement('div');
+  const header = document.querySelector('.topbar');
+  const scrollWatcher = document.createElement('div');
 
-scrollWatcher.setAttribute('data-scroll-watcher', '');
-header.before(scrollWatcher);
+  scrollWatcher.setAttribute('data-scroll-watcher', '');
+  header.before(scrollWatcher);
 
-const navObserver = new IntersectionObserver((entries) => {
-header.classList.toggle('scrolled', !entries[0].isIntersecting)
+  const navObserver = new IntersectionObserver((entries) => {
+    header.classList.toggle('scrolled', !entries[0].isIntersecting)
 
   }, {rootMargin: "250px 0px 0px 0px"});
-navObserver.observe(scrollWatcher)
+  navObserver.observe(scrollWatcher)
+
+
+  const faders = document.querySelectorAll(".fade-in");
+  const sliders = document.querySelectorAll(".slide-in");
 
 
 
+  const appearOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px -200px 0px"
+  };
 
+  const appearOnScroll = new IntersectionObserver(function(
+    entries,
+    appearOnScroll
+  ) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      } else {
+        entry.target.classList.add("appear");
+        appearOnScroll.unobserve(entry.target);
+      }
+    });
+  },
+  appearOptions);
 
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
 
-// Mobile menu toggle
-
-
-
-// Accordion
-
-
-
-// toggle
+  sliders.forEach(slider => {
+    appearOnScroll.observe(slider);
+  });
+});
 
 
 

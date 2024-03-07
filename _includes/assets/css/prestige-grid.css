@@ -892,14 +892,14 @@ ul.footer-menu {
     border-bottom:1px solid var(--lightgrey);
   }
  .footer-menu > li > a:hover{
-    padding: 0 1rem;
+  padding: 0 2rem;
     height: auto;
     border-bottom:1px solid var(--primarydark);
   }
 
 
   .footer-menu > li:last-child  > a {
-    padding: 0 1rem;
+    padding: 0 2rem;
     height: auto;
     border-bottom:1px solid transparent;
   }

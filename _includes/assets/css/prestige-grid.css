@@ -211,7 +211,7 @@ color: var(--black);
   color: var(--white);
 }
 
-.cta.content h3 {color: var(--black);font-size: calc(1.5rem + 0.5rem);margin:0 0 1rem 0;padding:0;line-height:1;}
+.cta.content h3 {color: var(--black);margin:0 0 1rem 0;padding:0;line-height:1;}
 .cta.content h4 {color: var(--black); margin:0 0 1rem 0;padding:0;line-height:1;}
 .cta.content p {margin:0.5rem 0; color: var(--white);}
 .cta.content p.i {

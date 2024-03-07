@@ -116,7 +116,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: var(--primarydarker);
+  color: var(--black);
   text-rendering: optimizeLegibility;
   margin:0 0 1rem;
   padding:0;
@@ -247,7 +247,7 @@ font-size: calc(2rem + 1vw);
  }
 
 .caption-text h1 span { 
-background: var(--black);
+background: var(--primarydarker);
 padding: calc(0.5vw + 5px);
 }
 

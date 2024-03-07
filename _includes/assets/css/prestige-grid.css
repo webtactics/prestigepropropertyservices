@@ -1,5 +1,6 @@
 :root {
-	--primary: hsla(36, 64.52%, 63.53%, 1);
+	--primary: hsla(36, 84.42%, 45.29%, 1);
+  --primaryorg: hsla(36, 64.52%, 63.53%, 1);
   --primarylight: hsla(36, 64.52%, 63.53%,0.6);
   --primarydark: hsla(36.07, 70.04%, 51.57%, 1);
   --primarydarker:  hsla(36, 84.42%, 45.29%, 1);

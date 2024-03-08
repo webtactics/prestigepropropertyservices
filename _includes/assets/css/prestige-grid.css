@@ -128,16 +128,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 
 .h1, h1 {
-  font-size: calc(2rem + 1vw); 
+  font-size: 2rem; 
   }
   
 .h2, h2 {
-  font-size: calc(1.6rem + 1vw); 
+  font-size: 1.7rem; 
 }
 
 
 .h3, h3 {
-  font-size: calc(1.4rem + 1vw); 
+  font-size: 1.5rem;
 }
 
   .sidebarwrapper h3 {color: var(--black);font-size: calc(1.4rem + 0.5rem);}
@@ -164,7 +164,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     border:none;
   }
 .h4, h4 {
-  font-size: calc(1.2rem + 1vw); 
+  font-size: 1.3rem;
 }
 
 
@@ -175,7 +175,7 @@ font-style: normal;
 font-weight: normal;
 color: var(--text);
 text-rendering: optimizeLegibility;
-font-size: calc(1rem + 0.5rem);
+font-size: 1rem;
 margin: 0 0 1rem 0;
 padding:0;}
 

@@ -227,55 +227,54 @@ color: var(--black);
 }
 
 .caption-text { 
-max-width: 1280px;
-margin:-5rem auto 3rem auto;
-position: relative;
-}
-
-.home .caption-text { 
   max-width: 1280px;
-  margin:-6rem auto 3rem 0;
+  margin:-5rem auto 3rem auto;
   position: relative;
   }
-
-
-.caption-text h1 { 
-display: inline-block;
-margin:0;
-text-align: right; 
-color: var(--primarydarker);
-font-size: calc(2rem + 1vw);
-background: var(--black);
-padding: calc(0.5vw + 5px);
-
-}
-
-
-
-
-
-
-@media screen and (max-width: 700px) {
-.caption-text, .home .caption-text {
-    width: 100%;
-    right: auto;
-    left: 0;
-    margin: 0 auto 1rem auto;
-
+  
+  .home .caption-text { 
+    max-width: 1280px;
+    margin:-6rem auto 3rem auto;
+    position: relative;
+    }
+  
+  
+  .caption-text h1 { 
+  margin:0;
+  text-align: right; 
+  color: var(--white);
+  font-size: calc(2rem + 1vw);
+  
    }
-
-   .caption-text h1 { 
-    margin:0;
-    text-align: left; 
-    padding: 1rem;
-    background: var(--black);
-    
+  
+  .caption-text h1 span { 
+  background: var(--black);
+  padding: calc(0.5vw + 5px);
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 700px) {
+  .caption-text {
+      width: 100%;
+      right: auto;
+      left: 0;
+      margin: 0 auto 1rem auto;
+  
      }
-    
-.caption-text h1 span { padding: 0;}
-
-
-}
+  
+     .caption-text h1 { 
+      margin:0;
+      text-align: left; 
+      padding: 1rem;
+      background: var(--black);
+      
+       }
+      
+  .caption-text h1 span { 
+  padding: 0;
+      }
         .headerwrapper {
           display: grid;
           grid-template-columns: 120px 1fr;

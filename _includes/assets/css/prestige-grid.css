@@ -242,7 +242,7 @@ color: var(--black);
   .caption-text h1 { 
   margin:0;
   text-align: right; 
-  color: var(--white);
+  color: var(--primarydarker);
   font-size: calc(2rem + 1vw);
   
    }
@@ -275,6 +275,9 @@ color: var(--black);
   .caption-text h1 span { 
   padding: 0;
       }
+
+  
+  }
         .headerwrapper {
           display: grid;
           grid-template-columns: 120px 1fr;

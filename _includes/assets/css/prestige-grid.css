@@ -241,6 +241,7 @@ color: var(--black);
   
   .caption-text h1 { 
   margin:0;
+  padding:0;
   text-align: right; 
   color: var(--primarydarker);
   font-size: calc(2rem + 1vw);

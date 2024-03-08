@@ -245,9 +245,12 @@ text-align: right;
 color: var(--primarydarker);
 font-size: calc(2rem + 1vw);
 
- }
+}
 
-.caption-text h1 span { 
+.caption-text h1::before 
+
+
+ { 
 background: var(--black);
 padding: calc(0.5vw + 5px);
 }

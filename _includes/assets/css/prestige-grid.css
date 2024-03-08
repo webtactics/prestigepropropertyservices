@@ -118,7 +118,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: normal;
   color: var(--black);
   text-rendering: optimizeLegibility;
-  margin:0 0 3rem;
+  margin:0 0 2vh;
   padding:0;
   text-wrap: balance;
 }
@@ -662,7 +662,7 @@ ul.menusocial li {
     border: none;
     position: relative;
     left: 0;
-    width: 160px;
+    width: auto;
     text-align: center;
 }
 

@@ -249,7 +249,7 @@ color: var(--black);
   
   .caption-text h1 span { 
   background: var(--black);
-  padding: calc(0.5vw + 5px);
+  padding: 0.68rem;
   }
   
   

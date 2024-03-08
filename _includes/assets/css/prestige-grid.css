@@ -818,7 +818,7 @@ ul.footer-menu {
     border: none;
     position: relative;
     right: 0;
-    width: 150px;
+    width: auto;
     text-align: center;
 }
 

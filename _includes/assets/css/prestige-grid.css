@@ -1312,7 +1312,7 @@ ul.main-menu {
   .main-menu > li > a {
     padding: 0 2rem;
     height:3rem;
-    line-height: 3rem;
+ 
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1351,5 +1351,5 @@ ul.main-menu {
   .scrolled .main-menu > li > a 
   {
     height:38px;
-    line-height: 38px;
+ 
 }

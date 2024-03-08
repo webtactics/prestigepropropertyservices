@@ -1298,6 +1298,11 @@ ul.main-menu {
   line-height:54px;
   margin:0;
   padding:0;
+  -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
   }
   
   .scrolled ul.main-menu {

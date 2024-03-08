@@ -241,7 +241,6 @@ color: var(--black);
   
   .caption-text h1 { 
   margin:0;
-  padding:0;
   text-align: right; 
   color: var(--primarydarker);
   font-size: calc(2rem + 1vw);
@@ -252,7 +251,7 @@ color: var(--black);
   .caption-text h1 span { 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
   background: var(--black);
   padding: calc(0.5vw + 5px);
   }

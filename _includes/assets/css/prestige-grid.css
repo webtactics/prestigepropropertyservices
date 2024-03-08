@@ -639,7 +639,7 @@ transition: all 0.6s;
 
 /* Menus */
 
-ul.menusocial, ul.main-menu, ul.second-level {
+ul.menusocial,  ul.second-level {
   list-style: none;
   margin: 0;
   margin-block-start: 0;
@@ -648,28 +648,10 @@ ul.menusocial, ul.main-menu, ul.second-level {
     margin-inline-end: 0px;
     padding-inline-start: 0;
 }
-ul.main-menu li {
-  float: left;
-}
+
 ul.menusocial li {
   float: right;
   margin:0 0.5rem 0 0;
-}
-.main-menu > li {
-    display: inline-block;
-    padding: 0;
-    margin:0;
-    border: none;
-    position: relative;
-    left: 0;
-    width: auto;
-    text-align: center;
-}
-
-
-
-.main-menu > li.hide {
-    display: none;
 }
 
 
@@ -1305,9 +1287,13 @@ li::marker {
 .black {color: var(--black);}
 .primary {color: var(--primarydarker);}
 
+.main-menu > li.hide {
+  display: none;
+}
+
 ul.main-menu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -1325,8 +1311,8 @@ ul.main-menu {
   
   .main-menu > li > a {
     padding: 0 2rem;
-    height:36px;
-    line-height: 36px;
+    height:3rem;
+    line-height: 3rem;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1362,3 +1348,8 @@ ul.main-menu {
     border:none;
     width: 100%;
   }
+  .scrolled .main-menu > li > a 
+  {
+    height:38px;
+    line-height: 38px;
+}

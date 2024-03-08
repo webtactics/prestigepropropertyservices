@@ -883,7 +883,7 @@ margin:5px 0;
   transition: all 0.3s;
 }
 
-span.phonetext {font-size:1rem;line-height: 34px;text-align:right;color: var(--white);display: flex;justify-content: center;-webkit-transition: all 0.6s;padding-left: 0.5rem;
+span.phonetext {font-size:1rem;line-height: 34px;text-align:right;color: var(--white);display: flex;justify-content: center;-webkit-transition: all 0.6s;padding: 0 0.25rem 0 0.5rem;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
   -o-transition: all 0.6s;

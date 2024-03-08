@@ -251,6 +251,7 @@ font-size: calc(2rem + 1vw);
 
 
  { 
+display: block;
 background: var(--black);
 padding: calc(0.5vw + 5px);
 }

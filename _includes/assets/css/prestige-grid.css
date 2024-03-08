@@ -245,6 +245,7 @@ color: var(--black);
   text-align: right; 
   color: var(--primarydarker);
   font-size: calc(2rem + 1vw);
+  line-height: calc(2rem + 1vw);
   
    }
   

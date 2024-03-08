@@ -243,8 +243,7 @@ color: var(--black);
   margin:0;
   text-align: right; 
   color: var(--primarydarker);
-  font-size: calc(2rem + 1vw);
-  line-height: calc(2rem + 1vw);
+
   
    }
   
@@ -254,6 +253,8 @@ color: var(--black);
     justify-content: flex-end;
   background: var(--black);
   padding: calc(0.5vw + 5px);
+  font-size: calc(2rem + 1vw);
+  line-height: 1;
   }
   
   

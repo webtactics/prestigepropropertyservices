@@ -248,6 +248,9 @@ color: var(--black);
    }
   
   .caption-text h1 span { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
   background: var(--black);
   padding: calc(0.5vw + 5px);
   }

@@ -1002,7 +1002,7 @@ background-color: var(--primary); font-weight: bold;}
   .sliderbox {background: var(--black);}
 
 
-.hero {background: url(https://ik.imagekit.io/webtactics/PrestigePro/tr:w-1400,h-933/prestige-surf-1_5pdKJG-r2.jpg?updatedAt=1709849628922);background-size: cover;background-color: var(--black);background-attachment:fixed;height: 50svh;height: 50vh;}
+.hero {height: 50svh;height: 50vh;}
 
 
 .home .hero {height: 100svh;height: 100vh;}

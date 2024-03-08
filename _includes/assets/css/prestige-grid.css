@@ -286,7 +286,7 @@ padding: calc(0.5vw + 5px);
    @media only screen and (min-width: 1025px) {  
     .headerwrapper {
     display: grid;
-    grid-template-columns: 120px 280px 1fr 280px;
+    grid-template-columns: 100px 180px 1fr 280px;
     grid-template-areas:
       "hamburger logo navwrapper socialwrapper";
       grid-template-rows: 54px; } 
@@ -294,7 +294,16 @@ padding: calc(0.5vw + 5px);
       .headerwrapper.scrolled {
       grid-template-rows: 44px; } 
   }
+  @media only screen and (min-width: 1300px) {  
+    .headerwrapper {
+    display: grid;
+    grid-template-columns: 100px 200px 1fr 280px;
+    grid-template-areas:
+      "hamburger logo navwrapper socialwrapper";
+      grid-template-rows: 54px; } 
+  
    
+  }
    @media only screen and (min-width: 1500px) {  
     .headerwrapper {
     display: grid;

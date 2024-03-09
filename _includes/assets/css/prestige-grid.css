@@ -963,7 +963,7 @@ ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
 
 ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   color: var(--white);
-  background-color: var(--primary); font-weight: bold;}
+  background-color: var(--black); font-weight: bold;}
 
   ul.off-canvas-list > li.parent > a {
     color: var(--primary);

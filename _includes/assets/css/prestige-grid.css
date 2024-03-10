@@ -1024,23 +1024,12 @@ background-color: var(--primary); font-weight: bold;}
 
 
   .sliderbox {background: transparent;}
-  .home .hero {height: 100svh;height: 100vh; width:100vw;
+.hero {height: 100svh;height: 100vh; width:100vw;
     position: fixed;
     top: 0;
     left: 0;
     z-index: -2;}
-  .home .hero img {height: 100svh;height: 100vh;width: 100vw; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;}
-
-.hero {height: 60svh;height: 60vh; width:100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2;}
- .hero img {height: 60svh;height: 60vh;width: 100vw; 
+ .hero img {height: 100svh;height: 100vh;width: 100vw; 
     position: fixed;
     top: 0;
     left: 0;
@@ -1059,27 +1048,30 @@ background-color: var(--primary); font-weight: bold;}
 
 
 
+
+    .footer {
+      width: 100%;
+      margin: 0 auto;
+      padding: 1rem 0;
+      background-color: var(--mattblack);
+   
+    }
 
 
   
   .footernavwrapper {
-    background-color: var(--black);border-bottom: 1px solid var(--primarydark);
+    background-color: var(--mattblack);
   }
     .footernav {
     margin: 0 auto;
     padding: 0;
     max-width: 1280px;
+    background-color: var(--black);
     }
 
 
 
-    .footer {
-      background-color: var(--mattblack);
-      width: 100%;
-      margin: 0 auto;
-      padding: 1rem 0;
-   
-    }
+
     .footerwrap {max-width:1280px;margin:0 auto;padding:1rem;
     color: var(--white);
     font-size: 0.875rem;

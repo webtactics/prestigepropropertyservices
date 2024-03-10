@@ -1009,10 +1009,10 @@ background-color: var(--primary); font-weight: bold;}
   .sliderbox {background: transparent;}
 
 
-.hero {height: 50svh;height: 50vh;object-fit: cover;}
+.hero {height: 50svh;height: 50vh; object-fit: contain;}
 
 
-.home .hero {height: 100svh;height: 100vh;object-fit: cover;}
+.home .hero {height: 100svh;height: 100vh; object-fit: contain;}
 
 
 

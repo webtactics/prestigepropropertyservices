@@ -1014,7 +1014,7 @@ background-color: var(--primary); font-weight: bold;}
 .hero img {height: 50svh;height: 50vh; width:100vw;object-fit: cover;}
 
 
-.home .hero {height: 100svh;height: 100vh; width:100vw;object-fit: cover;}
+.home .hero {height: 100svh;height: 100vh; width:100vw;object-fit: cover;position: fixed;}
 .home .hero img {height: 100svh;width: 100vw;height: 100vh; object-fit: cover;}
 
 

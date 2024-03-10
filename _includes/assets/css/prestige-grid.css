@@ -183,49 +183,6 @@ p em {
 font-style: italic;
 color: var(--black);
 }
-
-.home .container {margin: 100vh auto 0 auto;  background-color: var(--white);z-index: 2; }
-.container {margin: 50vh auto 0 auto;  background-color: var(--white);z-index: 2; }
-
-@media screen and (max-width: 768px) {
-  .container {position: relative; margin: 0 auto; }
-}
-.content {
-  margin: 0 auto;
-  padding:  2rem 0.5rem 6rem;
-  z-index: 2;
-  max-width: 1280px;
-  background-color: var(--white);
-  min-height: 200px;
-  }
-  
-
-
-.cta.content {  
-  margin-top:5rem;
-  padding:  2rem;min-height: 5rem;
-  background-color: var(--primaryorg);
-  border: 0.5rem solid var(--black);
-  border-radius: 0.25rem;
-  color: var(--white);
-}
-
-.cta.content h3 {color: var(--black);margin:0 0 2rem;padding:0;line-height:1;font-size:2rem;}
-.cta.content h4 {color: var(--black); margin:0 0 1rem 0;padding:0;line-height:1;}
-.cta.content p {margin:0 0 2rem; color: var(--white);}
-.cta.content p.i {
-  margin:0 0 2rem;
-  color: var(--black);
-  font-style: italic;
-}
-
-@media screen and (max-width: 768px) {
- 
-  .cta.content {  padding:  1rem;}
-
-
-}
-
 .caption-text { 
   max-width: 1280px;
   margin:40vh auto 0 auto;
@@ -283,6 +240,52 @@ z-index: 2;
 
   
   }
+.home .container {margin: 30vh auto 0 auto;  background-color: var(--white);z-index: 2;position: relative; }
+.container {margin: 10vh auto 0 auto;  background-color: var(--white);z-index: 2; position: relative; }
+
+@media screen and (max-width: 768px) {
+  .container {position: relative; margin: 0 auto; }
+}
+
+
+
+.content {
+  margin: 0 auto;
+  padding:  2rem 0.5rem 6rem;
+  z-index: 2;
+  max-width: 1280px;
+  background-color: var(--white);
+  min-height: 200px;
+  }
+  
+
+
+.cta.content {  
+  margin-top:5rem;
+  padding:  2rem;min-height: 5rem;
+  background-color: var(--primaryorg);
+  border: 0.5rem solid var(--black);
+  border-radius: 0.25rem;
+  color: var(--white);
+}
+
+.cta.content h3 {color: var(--black);margin:0 0 2rem;padding:0;line-height:1;font-size:2rem;}
+.cta.content h4 {color: var(--black); margin:0 0 1rem 0;padding:0;line-height:1;}
+.cta.content p {margin:0 0 2rem; color: var(--white);}
+.cta.content p.i {
+  margin:0 0 2rem;
+  color: var(--black);
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .cta.content {  padding:  1rem;}
+
+
+}
+
+
         .headerwrapper {
           display: grid;
           grid-template-columns: 120px 1fr;

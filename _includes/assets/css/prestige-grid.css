@@ -1073,7 +1073,7 @@ background-color: var(--primary); font-weight: bold;}
     margin: 0 auto;
     padding: 0;
     background-color: var(--black);
-  border-bottom: 1px solid var(--primaryorg);
+  border-bottom: 1px solid var(--primarylight);
 }
 
     .footernav {

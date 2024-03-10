@@ -272,7 +272,7 @@ color: var(--black);
 .ctasection {  background-color: transparent;width:100%;margin:5rem auto;}
 
 .cta.content {  
-  margin:3rem auto;
+  margin:0 auto;
   padding:  2rem;min-height: 5rem;
   background-color: var(--primaryorg);
   border: 0.5rem solid var(--black);

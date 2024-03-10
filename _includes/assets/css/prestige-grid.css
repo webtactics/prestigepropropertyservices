@@ -184,8 +184,8 @@ font-style: italic;
 color: var(--black);
 }
 
-.home .container {margin: 102vh auto 0 auto;  background-color: var(--white);z-index: 2; }
-.container {margin: 52vh auto 0 auto;  background-color: var(--white);z-index: 2; }
+.home .container {margin: 100vh auto 0 auto;  background-color: var(--white);z-index: 2; }
+.container {margin: 50vh auto 0 auto;  background-color: var(--white);z-index: 2; }
 
 @media screen and (max-width: 768px) {
   .container {position: relative; margin: 0 auto; }

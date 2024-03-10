@@ -4,7 +4,7 @@ title: About PrestigePro Property Services
 description: PrestigePro simplify property maintenance by providing professional, reliable, and localised services to maintain your property value from new construction stage or restoring properties to their former glory.
 section: about
 class: about
-date: 2023-07-20
+date: 2024-03-11
 permalink: /about/
 metadata:
   title: About PrestigePro Property Services

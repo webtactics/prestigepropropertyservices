@@ -2,9 +2,9 @@
 layout: layouts/default.njk
 title: Contact PrestigePro Property Services
 class: contact
-description: How to contact PrestigePro Property Services
+description: For more information about our services or to schedule a consultation, please call on tel:0427892240 or email prestigepro2428@gmail.com
 section: contact
-date: 2023-07-20
+date: 2024-03-11
 metadata:
   title: 
 permalink: /contact/

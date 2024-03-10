@@ -3,8 +3,8 @@ layout: layouts/home.njk
 title: PrestigePro Property Services
 subtitle: PrestigePro Property Services
 class: home
-date: 2024-02-12
-description: PrestigePro Property Services
+date: 2024-03-11
+description: PrestigePro is a local provider of comprehensive property management services tailored to meet individual needs for private property owners.
 metadata:
   title: PrestigePro Property Services
 permalink: /

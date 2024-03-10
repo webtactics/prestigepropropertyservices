@@ -274,7 +274,7 @@ z-index: 2;
 .cta.content {  
   margin:3rem auto;
   padding:  2rem;min-height: 5rem;
-  background-color: transparent;
+  background-color: var(--primary);
   border: 0.5rem solid var(--black);
   border-radius: 0.25rem;
   color: var(--white);

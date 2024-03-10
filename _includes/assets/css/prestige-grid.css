@@ -1011,8 +1011,11 @@ background-color: var(--primary); font-weight: bold;}
 
 .hero {height: 50svh;height: 50vh; object-fit: contain;}
 
+.hero img {height: 50svh;height: 50vh; object-fit: contain;}
+
 
 .home .hero {height: 100svh;height: 100vh; object-fit: fill;}
+.home .hero img {height: 100svh;height: 100vh; object-fit: fill;}
 
 
 

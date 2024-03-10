@@ -25,7 +25,7 @@
   font-family: 'Encode Sans Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url('https://jamestaylorsolicitor.b-cdn.net/encode-sans-condensed-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('https://webtactics.b-cdn.net/fonts/encode-sans-condensed-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -35,7 +35,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('https://jamestaylorsolicitor.b-cdn.net/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('https://webtactics.b-cdn.net/fonts/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-700 - latin */
@@ -44,7 +44,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('https://jamestaylorsolicitor.b-cdn.net/open-sans-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('https://webtactics.b-cdn.net/fonts/open-sans-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 *, *:before, *:after {

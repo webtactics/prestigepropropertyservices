@@ -43,7 +43,7 @@
   const navObserver = new IntersectionObserver((entries) => {
     header.classList.toggle('scrolled', !entries[0].isIntersecting)
 
-  }, {rootMargin: "100px 0px 0px 0px"});
+  }, {rootMargin: "50px 0px 0px 0px"});
   navObserver.observe(scrollWatcher)
 
 
@@ -54,7 +54,7 @@
 
   const appearOptions = {
     threshold: 0,
-    rootMargin: "0px 0px -100px 0px"
+    rootMargin: "0px 0px -200px 0px"
   };
 
   const appearOnScroll = new IntersectionObserver(function(

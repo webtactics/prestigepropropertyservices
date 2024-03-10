@@ -185,7 +185,7 @@ color: var(--black);
 }
 
 
-.container {position: relative; margin: 0 auto;  background-color: var(--white);z-index: 2; }
+.container {margin: 0 auto;  background-color: var(--white);z-index: 2; }
 
 @media screen and (max-width: 768px) {
   .container {position: relative; margin: 0 auto; }

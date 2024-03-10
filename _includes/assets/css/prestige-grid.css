@@ -1042,7 +1042,10 @@ background-color: var(--primary); font-weight: bold;}
 
 
 
-    .whitespacerfullwidth {width:100%;height:5rem;background-color: var(--white);}
+  .whitespacerfullwidth {
+    width:100%;height:5rem;background-color: var(--white);
+    display:none;
+  }
 
 
 

@@ -13,11 +13,12 @@
   {% endblock %}
 
 <div class="container">
-   
 {% block content %}
-
 <main class="content">  
 {{ layoutContent | safe }}
+</main>
+</div>
+{% endblock %}
 
 <section class="cta content fade-in"> 
 
@@ -26,20 +27,15 @@
 </section>
 
 
-</main>
-{% endblock %}
-
-
-
-
 <footer class="footernavwrapper"> 
 <div class="footernav">  
 {% include "components/nav-footer.njk" %}
+{% include "components/footer.njk" %}
 </div>
 </footer>
 
-{% include "components/footer.njk" %}
-</div>
+
+
 {% include "components/javascript.njk" %}
 
 </body>

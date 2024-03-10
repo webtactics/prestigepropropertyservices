@@ -1064,8 +1064,10 @@ background-color: var(--primary); font-weight: bold;}
 
     .footer {
       background-color: var(--mattblack);
+      width: 100%;
+      margin: 0 auto;
       padding: 1rem 0;
-      z-index: 4;
+      z-index: 2;
       position: fixed;
       bottom: 0;
     }

@@ -269,12 +269,12 @@ z-index: 2;
   min-height: 200px;
   }
   
-
+.ctasection {  background-color: transparent;width:100%;}
 
 .cta.content {  
-  margin-top:5rem;
+  margin:3rem auto;
   padding:  2rem;min-height: 5rem;
-  background-color: var(--primaryorg);
+  background-color: transparent;
   border: 0.5rem solid var(--black);
   border-radius: 0.25rem;
   color: var(--white);

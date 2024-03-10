@@ -185,7 +185,7 @@ color: var(--black);
 }
 
 
-.container {position: relative; margin: 0 auto;  background-color: var(--white); }
+.container {position: relative; margin: 0 auto;  background-color: var(--white);z-index: 2; }
 
 @media screen and (max-width: 768px) {
   .container {position: relative; margin: 0 auto; }
@@ -229,13 +229,13 @@ color: var(--black);
 .caption-text { 
   max-width: 1280px;
   margin:50vh auto 3rem auto;
-  position:relative;
+
   }
   
   .home .caption-text { 
     max-width: 1280px;
     margin:94vh auto 3rem auto;
-    position: relative;
+  
     }
   
   

@@ -183,20 +183,21 @@ p em {
 font-style: italic;
 color: var(--black);
 }
-.caption-text { 
-max-width: 1280px;
-margin:40vh auto 0 auto;
-position: relative;
-z-index: 2;
-  }
+
   
-  .home .caption-text { 
+.home .caption-text { 
     max-width: 1280px;
     margin:80vh auto 0 auto;
     position: relative;
     z-index: 2;
     }
-  
+
+    .caption-text { 
+      max-width: 1280px;
+      margin:40vh auto 0 auto;
+      position: relative;
+      z-index: 2;
+        }
   
   .caption-text h1 { 
   margin:0;
@@ -204,7 +205,7 @@ z-index: 2;
   text-align: right; 
   color: var(--primarydarker);
   font-size: calc(2rem + 1vw);
-  z-index: 3;
+  z-index: 2;
 
   
    }
@@ -219,7 +220,6 @@ z-index: 2;
   
   @media screen and (max-width: 700px) {
     .home .caption-text { 
-   
       margin:60vh auto 0 auto;
       position: relative;
       z-index: 2;

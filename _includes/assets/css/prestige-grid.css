@@ -244,7 +244,8 @@ z-index: 2;
 .container {margin: 10vh auto 0 auto;  background-color: var(--white);z-index: 2; position: relative; }
 
 @media screen and (max-width: 768px) {
-  .container {position: relative; margin: 0 auto; }
+  .home .container {margin: 10vh auto 0 auto;  background-color: var(--white);z-index: 2;position: relative; }
+  .container {margin: 10vh auto 0 auto;  background-color: var(--white);z-index: 2; position: relative; }
 }
 
 

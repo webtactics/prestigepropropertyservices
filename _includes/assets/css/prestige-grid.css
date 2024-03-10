@@ -1013,30 +1013,30 @@ background-color: var(--primary); font-weight: bold;}
 
 
   .sliderbox {background: transparent;}
-
-
-.hero {height: 50svh;height: 50vh; width:100vw;
+  .home .hero {height: 100svh;height: 100vh; width:100vw;
     position: fixed;
     top: 0;
     left: 0;
     z-index: -2;}
- .hero img {height: 50svh;height: 50vh;width: 100vw; 
+  .home .hero img {height: 100svh;height: 100vh;width: 100vw; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;}
+
+.hero {height: 60svh;height: 60vh; width:100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;}
+ .hero img {height: 60svh;height: 60vh;width: 100vw; 
     position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;}
 
 
-.home .hero {height: 100svh;height: 100vh; width:100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -2;}
-.home .hero img {height: 100svh;height: 100vh;width: 100vw; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  object-fit: cover;}
+
 
 
 

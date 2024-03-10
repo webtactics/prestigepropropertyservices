@@ -273,6 +273,8 @@ color: var(--black);
 
 .cta.content {  
   margin:0 auto;
+  width: calc(100vw - 3em);
+  max-width: 1280px;
   padding:  2rem;min-height: 5rem;
   background-color: var(--primaryorg);
   border: 0.5rem solid var(--black);

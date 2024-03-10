@@ -184,8 +184,8 @@ font-style: italic;
 color: var(--black);
 }
 .caption-text { 
-  max-width: 1280px;
-  margin:40vh auto 0 auto;
+max-width: 1280px;
+margin:40vh auto 0 auto;
 position: relative;
 z-index: 2;
   }
@@ -222,7 +222,9 @@ z-index: 2;
       width: 100%;
       right: auto;
       left: 0;
-      margin: 0 auto 1rem auto;
+      margin:40vh auto 0 auto;
+      position: relative;
+      z-index: 2;
   
      }
   

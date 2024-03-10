@@ -1057,11 +1057,16 @@ background-color: var(--primary); font-weight: bold;}
    
     }
 
-
   
   .footernavwrapper {
     background-color: var(--mattblack);
   }
+  .footernavfullwidth {   
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--black);}
+
     .footernav {
     margin: 0 auto;
     padding: 0;

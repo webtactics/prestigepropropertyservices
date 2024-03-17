@@ -95,6 +95,7 @@ a:not([class]) {
 .content p a {
   line-height: inherit;
   color: var(--primarydark);
+  background-color: var(--black);
   text-decoration: none;
   cursor: pointer;
   border-bottom: 1px dotted var(--primarydark);
@@ -107,7 +108,7 @@ a:not([class]) {
   border: none;
   text-decoration: none;
   border-bottom: 3px solid var(--black);
-  background-color: var(--white);
+  background-color: var(--primarydark);
   transition: all 0.2s ease-in-out;
 
 }

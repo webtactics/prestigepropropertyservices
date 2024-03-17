@@ -106,12 +106,12 @@ a:not([class]) {
 }
 
 .content p a:hover {
-  background: var(--white);
+  background: var(--primarydarker);
   color: var(--black);
   border: none;
   text-decoration-thickness: 0.1rem;
   text-decoration-style: solid;
-  text-decoration-color: var(--white);
+  text-decoration-color: var(--black);
   text-underline-offset: 0.3rem;
   transition: color .5s,text-decoration-color 1.5s;
 

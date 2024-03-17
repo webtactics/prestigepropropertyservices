@@ -1358,4 +1358,19 @@ ul.main-menu {
 
 .partnertitle {text-align: center;}
 .partnertitle h4 {text-align: center;}
-.partnertitle h4 a {text-align: center;}
+.partnertitle h4 a {text-align: center;color: var(--black);}
+.partnertitle h4 a:hover {text-align: center;color: var(--primarydarker);background-color: var(--black);
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.partnerwrapper:hover h4 {color: var(--primarydarker);background-color: var(--black);
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}

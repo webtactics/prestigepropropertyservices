@@ -98,7 +98,7 @@ a:not([class]) {
   padding: 0 .2rem;
   white-space: nowrap;
   text-decoration-thickness: 0.1rem;
-  text-decoration-style: solid;
+  text-decoration-style: dotted;
   text-decoration-color: var(--primary);
   text-underline-offset: 0.3rem;
   transition: color .5s,text-decoration-color 1.5s;

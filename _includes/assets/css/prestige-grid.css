@@ -1375,18 +1375,19 @@ ul.main-menu {
   transition: all 0.6s;
 }
 .partnerwrapperbox {
-border:1px solid transparent
-box-shadow: 2px 2px 2px transparent;
+  box-shadow: 0 2px 8px #ffffff;
   -webkit-transition: box-shadow 0.2s ease-in-out;
   -moz-transition: box-shadow 0.2s ease-in-out;
   -o-transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
+  border: 1px solid #ffffff;
 }
+
 .partnerwrapperbox:hover {
-  border:1px solid var(--lightgrey);
-  box-shadow: 2px 2px 2px var(--lightgrey);
+  box-shadow: 0 2px 8px #CFCFCF;
   -webkit-transition: box-shadow 0.2s ease-in-out;
   -moz-transition: box-shadow 0.2s ease-in-out;
   -o-transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
+  border: 1px solid #ebebeb;
 }

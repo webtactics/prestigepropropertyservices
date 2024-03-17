@@ -1353,7 +1353,7 @@ ul.main-menu {
   line-height:44px;
 }
 .partnerlogos {text-align: center;}
-.partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;text-align: center;margin:0 auto;}
+.partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;text-align: center;margin:0 auto;aspect-ratio: 4 / 3;}
 .partnerwrapperbox:hover img {filter: brightness(1.2);}
 
 .partnertitle {text-align: center;}

@@ -1365,7 +1365,7 @@ ul.main-menu {
 
 .partnertitle {text-align: center;}
 .partnertitle h4 {text-align: center;margin:0;}
-.partnertitle h4 a {text-align: center;color: var(--black);margin:0;}
+.partnertitle h4 a {text-align: center;color: var(--black);margin:0;text-decoration: none;}
 .partnertitle h4 a:hover {text-align: center;color: var(--black);background-color: var(--primarydarker);
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;

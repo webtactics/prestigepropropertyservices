@@ -1219,10 +1219,7 @@ figcaption {
 
   .img400 img,   .img600 img {max-width: 100%;}
 
- 
-
   .hidesmall, .hideforsmall {display:none;}
-
 }
 
 
@@ -1355,3 +1352,6 @@ ul.main-menu {
   height:44px;
   line-height:44px;
 }
+
+.partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;}
+.partnerlogos:hover img {filter: brightness(1.2);}

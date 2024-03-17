@@ -1357,8 +1357,8 @@ ul.main-menu {
 .partnerwrapper:hover img {filter: brightness(1.2);}
 
 .partnertitle {text-align: center;}
-.partnertitle h4 {text-align: center;}
-.partnertitle h4 a {text-align: center;color: var(--black);}
+.partnertitle h4 {text-align: center;margin:0;}
+.partnertitle h4 a {text-align: center;color: var(--black);margin:0;}
 .partnertitle h4 a:hover {text-align: center;color: var(--black);background-color: var(--primarydarker);
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;

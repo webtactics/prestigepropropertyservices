@@ -1354,4 +1354,8 @@ ul.main-menu {
 }
 
 .partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;}
-.partnerlogos:hover img {filter: brightness(1.2);}
+.partnerwrapper:hover img {filter: brightness(1.2);}
+
+.partnertitle {text-align: center;}
+.partnertitle h4 {text-align: center;}
+.partnertitle h4 a {text-align: center;}

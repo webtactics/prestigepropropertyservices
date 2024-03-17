@@ -93,23 +93,27 @@ a:not([class]) {
 }
 
 .content p a {
-  line-height: inherit;
-  color: var(--primarydark);
-  background-color: var(--black);
-  text-decoration: none;
-  cursor: pointer;
-  border-bottom: 1px dotted var(--primarydark);
-  transition: all 0.2s ease-in-out;
+  color: var(--black);
+  border: none;
+  padding: 0 .2rem;
+  white-space: nowrap;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-style: solid;
+  text-decoration-color: var(--primary);
+  text-underline-offset: 0.3rem;
+  transition: color .5s,text-decoration-color 1.5s;
 
 }
 
 .content p a:hover {
+  background: var(--white);
   color: var(--black);
   border: none;
-  text-decoration: none;
-  border-bottom: 3px solid var(--black);
-  background-color: var(--primarydark);
-  transition: all 0.2s ease-in-out;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-style: solid;
+  text-decoration-color: var(--white);
+  text-underline-offset: 0.3rem;
+  transition: color .5s,text-decoration-color 1.5s;
 
 }
 

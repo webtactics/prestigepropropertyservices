@@ -1352,8 +1352,8 @@ ul.main-menu {
   height:44px;
   line-height:44px;
 }
-
-.partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;text-align: center;}
+.partnerlogos {text-align: center;}
+.partnerlogos img {max-width: 400px;max-height: 300px;object-fit: contain;text-align: center;margin:0 auto;}
 .partnerwrapperbox:hover img {filter: brightness(1.2);}
 
 .partnertitle {text-align: center;}

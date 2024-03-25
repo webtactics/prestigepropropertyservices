@@ -1127,10 +1127,15 @@ background-color: var(--primary); font-weight: bold;}
   gap: 1rem;
 }
 
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-4-columns {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 @media (min-width: 1025px) {
-  .grid-4-columns {
-    grid-template-columns: repeat(4, 1fr);
-  }
+ 
 .grid-3-columns {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -1140,9 +1145,7 @@ background-color: var(--primary); font-weight: bold;}
 }
 
 @media (max-width: 1024px) {
-  .grid-4-columns {
-    grid-template-columns: repeat(2, 1fr);
-  }
+ 
 .grid-3-columns {
   grid-template-columns: repeat(2, 1fr);
 }
